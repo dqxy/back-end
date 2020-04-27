@@ -1,0 +1,38 @@
+{
+  "name": "med-cabinet",
+  "version": "1.0.0",
+  "description": "Med Cabinet",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "server": "nodemon index.js",
+    "start": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Build-Week-Med-Cabinet-6/back-end.git"
+  },
+  "keywords": [],
+  "author": "Med Cabinet Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Build-Week-Med-Cabinet-6/back-end/issues"
+  },
+  "homepage": "https://github.com/Build-Week-Med-Cabinet-6/back-end#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.21.2",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.20.4",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "jest": "^25.4.0",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
+  }
+}
